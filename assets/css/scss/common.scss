@@ -1,0 +1,55 @@
+$blue01: #77CEFF;
+$blue02: #218BCE;
+$medium: #444444;
+$navy: #0B2239;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  .inner02 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &.top {
+    .header__logo {
+      background-image: url('/assets/images/common/logo.svg');
+    }
+    .gnb {
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+.header__logo {
+  width: 195px;
+  height: 40px;
+  background-image: url('/assets/images/common/logo02.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: background .3s ease;
+  p {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    text-indent: -99999px;
+    color: transparent;
+  }
+}
+.gnb {
+  ul {
+    display: flex;
+    gap: 56px;
+  }
+  a {
+    font-size: 20px;
+    font-weight: 600;
+    transition: color .3s ease;
+  }
+}

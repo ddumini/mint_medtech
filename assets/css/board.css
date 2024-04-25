@@ -1,0 +1,104 @@
+/* board - top */
+.board-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 48px; }
+.board-tab { display: flex; gap: 16px; }
+.board-tab a { display: block; padding: 14px 0; font-size: 20px; font-weight: 600; }
+.board-tab .active { color: #89d2d7; border-bottom: 1px solid #89d2d7; }
+/* board - Search */
+.board-search { display: -webkit-box; display: -ms-flexbox; display: flex; width: 376px; background-color: #1d222f; border: 1px solid rgba(255, 255, 255, 0.2); padding: 0 20px; }
+.board-search input { height: 45px; line-height: 45px; flex: 1; font-size: 20px; font-weight: 400; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; color: #fff; }
+.board-search > div button { width: 30px; }
+.board-search > div button img { margin-left: auto; width: 18px; margin-right: auto; }
+.board-search button { margin-left: 10px; }
+
+/* board - List */
+.board-list__header { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 20px 0; border-bottom: 1px solid #000; }
+.board-list__header > div { text-align: center !important; font-size: 17px !important; color: #000 !important; }
+.board-list__record { display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center; }
+.board-list__num { width: 90px; color: #505050; font-size: 17px; }
+.board-list__tit { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; text-align: left; /* overflow: hidden; text-overflow: ellipsis; white-space: nowrap; */
+ font-size: 17px; }
+.board-list__date { width: 200px; font-size: 16px; color: #999; }
+/* board - list (feed)*/
+.feed .board-list { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 64px 24px; }
+.feed .board-list__record { flex-direction: column; align-items: flex-start; overflow: hidden; }
+.feed .board-list__tit { width: 100%; font-size: 24px; font-weight: 400; line-height: 1.4; overflow: hidden; height: 2.8em; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.feed .board-list__thumb { margin-bottom: 24px; }
+.feed .board-list__cate { display: flex; margin-bottom: 16px; }
+.feed .board-list__cate p { font-size: 20px; font-weight: 600; opacity: 0.5; line-height: 1; }
+.feed .board-list__cate p:not(:first-child)::before { content: ''; width: 1px; height: 20px; background-color: #fff; opacity: 0.5; display: inline-block; vertical-align: middle; margin: 0 8px; }
+
+/* board - Pager */
+.list-pager { margin-top: 80px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.list-pager > a { width: 40px; height: 40px; font-size: 20px; font-weight: 400; line-height: 1.2; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.list-pager > a.active { background-color: #89d2d7; color: #272d3f; border-radius: 50%; font-weight: 700; }
+.list-pager__prev { margin-right: 16px; }
+.list-pager__next { margin-left: 16px; }
+
+/* board - View */
+.board-view-tit { font-weight: 600; line-height: 1.2em; font-size: 84px; margin-bottom: 64px; }
+.board-view-tit span { color: #89d2d7; }
+.board-view-info { padding: 15px 5px; text-align: right; font-size: 16px; color: #888; }
+.board-view-info span { margin: 0 6px; color: #ddd; }
+.board-view-ct { padding: 64px 0 80px; font-size: 20px; }
+.board-view-ct img { max-width: 100%; }
+.board-view-file { margin-top: 50px; }
+.board-view-file li { font-size: 13px; letter-spacing: 0.01em; padding-left: 20px; margin: 5px 0; background: url(/image/common/icon_file.gif) no-repeat left center; }
+.board-view-file a { color: #666; }
+.board-view-file a:hover { border-bottom: 1px dotted #666; }
+.editor-vod { position: relative; padding-bottom: 56.25%; height: 0; }
+.editor-vod iframe { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.board-view-nav li img { vertical-align: middle; margin-left: 10px; }
+.board-view-nav li { padding: 18px 5px 18px 95px; position: relative; background-color: #fcfcfc; }
+.board-view-nav li:first-child { border-bottom: 1px solid #ddd; }
+.board-view-nav .lb { position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; left: 18px; top: 18px; color: #333; font-weight: 500; }
+.board-view-btn { width: 200px; display: block; border: 1px solid #000; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; line-height: 54px; height: 56px; font-size: 20px; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; background-color: transparent; margin-left: auto; margin-right: auto; margin-top: 45px; }
+.board-view-btn:hover { background-color: #000; border-color: #000; color: #fff; }
+
+/* board - view (feed)*/
+.feed.view .board-list__cate { margin-bottom: 0; }
+.feed.view .board-list__cate p { opacity: 1; }
+.feed.view .board-view-info { padding-bottom: 24px; border-bottom: 1px solid #fff; display: flex; justify-content: space-between; align-items: center; }
+.feed.view .board-view-date { display: flex; align-items: center; font-size: 20px; font-weight: 400; }
+.feed.view .board-view-date img { margin-right: 8px; }
+.board-view-nav { display: flex; justify-content: space-between; align-items: center; }
+.board-view-nav a { display: flex; align-items: center; justify-content: center; padding: 0 20px; height: 64px; font-size: 24px; font-weight: 600; gap: 8px; border: 1px solid #fff; background-color: #3b445f; transition: background ease 0.3s; }
+.board-view-nav a:first-child,
+.board-view-nav a:last-child { width: 150px; }
+.board-view-nav a:first-child { justify-content: flex-start; }
+.board-view-nav a:last-child { justify-content: flex-end; }
+.board-view-nav a:hover { background-color: #272d3f; }
+
+.career.view .board-view-tit { margin-bottom: 0; padding-bottom: 64px; border-bottom: 2px solid #fff; }
+.career.view .board-view-nav { justify-content: center; }
+.career.view .board-view-nav a { height: 64px; width: 64px; }
+
+
+@media all and (max-width: 1024px){
+ .board-view-tit { font-size: 32px; margin-bottom: 25px; }
+ }
+
+@media all and (max-width: 768px){
+ .board-list__header { display: none; }
+ .board-list__num { width: 70px; }
+ .board-list__date { width: 120px; }
+ .board-view-info { font-size: 14px; }
+ }
+
+@media all and (max-width: 640px){
+ .board-search { width: 100%; }
+ .board-search select { font-size: 14px; width: 90px; margin-right: 10px; height: 40px; line-height: 40px; }
+ .board-search > div input { height: 40px; line-height: 40px; font-size: 14px; }
+ .board-list { margin-top: 45px; }
+ .board-list__record { flex-wrap: wrap; padding: 15px 10px; }
+ .board-list__num { display: none; }
+ .board-list__tit { width: 100%; flex: none; font-size: 15px; }
+ .board-list__date { width: 100%; font-size: 13px; margin-top: 5px; text-align: left; }
+ .list-pager { margin-top: 30px; }
+ .list-pager > a { width: 25px; height: 25px; }
+ .board-view-tit { font-size: 20px; margin-bottom: 20px; }
+ .board-view-info { padding: 10px 5px 15px 5px; font-size: 12px; }
+ .board-view-nav li { padding: 12px 5px 12px 75px; font-size: 13px; }
+ .board-view-nav .lb { left: 9px; top: 12px; }
+ .board-view-nav li img { margin-left: 6px; }
+ .board-view-btn { width: 140px; font-size: 15px; line-height: 43px; height: 45px; margin-top: 40px; }
+ }
