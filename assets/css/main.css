@@ -23,7 +23,7 @@
   line-height: 1.2;
 }
 .main-banner b span {
-  color: #77CEFF;
+  color: #77ceff;
 }
 
 .main-banner__scroll {
@@ -142,7 +142,7 @@
   line-height: 1.2;
 }
 .main-tit__area strong span {
-  color: #218BCE;
+  color: #218bce;
 }
 .main-tit__area p {
   margin-top: 32px;
@@ -203,7 +203,7 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 1.2;
-  color: #0B2239;
+  color: #0b2239;
 }
 .main-partner__desc li p {
   color: #444444;
@@ -214,6 +214,7 @@
 
 .main-partner__phrase {
   position: relative;
+  margin-top: 140px;
 }
 .main-partner__phrase::before, .main-partner__phrase::after {
   content: "";
@@ -230,4 +231,92 @@
 
 .main-medicine .carousel-item {
   padding: 0 20px;
+}
+
+.main-partner__phrase {
+  max-width: 1920px;
+  margin-inline: auto;
+  position: relative;
+  z-index: 2;
+}
+.main-partner__phrase::before, .main-partner__phrase::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
+}
+.main-partner__phrase::before {
+  width: 678.462px;
+  height: 893.669px;
+  top: -237px;
+  left: 0;
+  background-image: url("/assets/images/main/main_partner_bg01.png");
+}
+.main-partner__phrase::after {
+  height: 452.361px;
+  width: 893.669px;
+  bottom: -118px;
+  right: 0;
+  background-image: url("/assets/images/main/main_partner_bg02.png");
+}
+.main-partner__phrase li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 233px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-partner__phrase li:not(:first-child) {
+  margin-top: 80px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 0 124px;
+}
+.main-partner__phrase li b {
+  position: relative;
+  padding: 47px 0;
+  font-size: 48px;
+  font-weight: 600;
+  display: block;
+}
+.main-partner__phrase li b::before, .main-partner__phrase li b::after {
+  content: "";
+  width: 32px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+}
+.main-partner__phrase li b::before {
+  background-image: url("/assets/images/main/quotations01.png");
+  top: 0;
+  left: 0;
+}
+.main-partner__phrase li b::after {
+  background-image: url("/assets/images/main/quotations02.png");
+  bottom: 0;
+  right: 0;
+}
+.main-partner__phrase li p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+.main-health {
+  padding: 140px 0 156px;
+  background-image: url("/assets/images/main/main_health_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
 }

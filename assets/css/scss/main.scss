@@ -1,7 +1,7 @@
-$blue01: #77CEFF;
-$blue02: #218BCE;
+$blue01: #77ceff;
+$blue02: #218bce;
 $medium: #444444;
-$navy: #0B2239;
+$navy: #0b2239;
 
 .main-banner {
   height: 100vh;
@@ -93,12 +93,12 @@ $navy: #0B2239;
   text-align: center;
   strong {
     font-size: 72px;
-    font-weight: 600; 
+    font-weight: 600;
     line-height: 1.2;
     span {
       color: $blue02;
     }
-  }  
+  }
   p {
     margin-top: 32px;
     font-size: 28px;
@@ -158,9 +158,10 @@ $navy: #0B2239;
 }
 .main-partner__phrase {
   position: relative;
+  margin-top: 140px;
   &::before,
   &::after {
-    content: "";
+    content: '';
     position: absolute;
   }
 }
@@ -172,4 +173,86 @@ $navy: #0B2239;
 }
 .main-medicine .carousel-item {
   padding: 0 20px;
+}
+.main-partner__phrase {
+  max-width: 1920px;
+  margin-inline: auto;
+  position: relative;
+  z-index: 2;
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+  }
+  &::before {
+    width: 678.462px;
+    height: 893.669px;
+    top: -237px;
+    left: 0;
+    background-image: url('/assets/images/main/main_partner_bg01.png');
+  }
+  &::after {
+    height: 452.361px;
+    width: 893.669px;
+    bottom: -118px;
+    right: 0;
+    background-image: url('/assets/images/main/main_partner_bg02.png');
+  }
+  li {
+    display: flex;
+    gap: 0 233px;
+    align-items: center;
+    justify-content: center;
+    &:not(:first-child) {
+      margin-top: 80px;
+      justify-content: flex-end;
+      gap: 0 124px;
+    }
+    b {
+      position: relative;
+      padding: 47px 0;
+      font-size: 48px;
+      font-weight: 600;
+      display: block;
+      &::before,
+      &::after {
+        content: '';
+        width: 32px;
+        height: 27px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+      }
+      &::before {
+        background-image: url('/assets/images/main/quotations01.png');
+        top: 0;
+        left: 0;
+      }
+      &::after {
+        background-image: url('/assets/images/main/quotations02.png');
+        bottom: 0;
+        right: 0;
+      }
+    }
+    p {
+      font-size: 24px;
+      font-weight: 400;
+      margin-top: 32px;
+    }
+  }
+}
+
+.main-health {
+  padding: 140px 0 156px;
+  background-image: url('/assets/images/main/main_health_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  
 }

@@ -28,20 +28,36 @@
         <p>The gateway for Asian market for bringing innovative medicine</p>
       </div>
     </div>
-    <article class="box-carousel" style="visibility: hidden"> 
-      <div class="carousel-items"> 
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo01.png" alt="mint square logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo02.png" alt="mint venture partners logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo03.png" alt="mintbus logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo04.png" alt="mint medtech logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo05.png" alt="mint md logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo06.png" alt="sail biomedicines logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo01.png" alt="mint square logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo02.png" alt="mint venture partners logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo03.png" alt="mintbus logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo04.png" alt="mint medtech logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo05.png" alt="mint md logo"></div>
-        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo06.png" alt="sail biomedicines logo"></div>
+    <article class="box-carousel" style="visibility: hidden">
+      <div class="carousel-items">
+        <div class="carousel-item">
+          <img src="/assets/images/main/main_medicine_logo01.png" alt="mint square logo" />
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/main/main_medicine_logo02.png" alt="mint venture partners logo" />
+        </div>
+        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo03.png" alt="mintbus logo" /></div>
+        <div class="carousel-item">
+          <img src="/assets/images/main/main_medicine_logo04.png" alt="mint medtech logo" />
+        </div>
+        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo05.png" alt="mint md logo" /></div>
+        <div class="carousel-item">
+          <img src="/assets/images/main/main_medicine_logo06.png" alt="sail biomedicines logo" />
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/main/main_medicine_logo01.png" alt="mint square logo" />
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/main/main_medicine_logo02.png" alt="mint venture partners logo" />
+        </div>
+        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo03.png" alt="mintbus logo" /></div>
+        <div class="carousel-item">
+          <img src="/assets/images/main/main_medicine_logo04.png" alt="mint medtech logo" />
+        </div>
+        <div class="carousel-item"><img src="/assets/images/main/main_medicine_logo05.png" alt="mint md logo" /></div>
+        <div class="carousel-item">
+          <img src="/assets/images/main/main_medicine_logo06.png" alt="sail biomedicines logo" />
+        </div>
       </div>
     </article>
   </section>
@@ -79,8 +95,8 @@
           <figure><img src="/assets/images/main/main_partner_icon02.png" alt="Marketing" /></figure>
           <b>Marketing</b>
           <p>
-            Specialized clinical &<br>
-            product marketing<br>
+            Specialized clinical &<br />
+            product marketing<br />
             for your products
           </p>
         </li>
@@ -88,10 +104,10 @@
           <figure><img src="/assets/images/main/main_partner_icon03.png" alt="Product Training" /></figure>
           <b>Product Training</b>
           <p>
-            Dedicated training for<br>
-            end-users, whether<br>
-            they’re healthcare<br>
-            professionials or<br>
+            Dedicated training for<br />
+            end-users, whether<br />
+            they’re healthcare<br />
+            professionials or<br />
             patients
           </p>
         </li>
@@ -99,17 +115,52 @@
           <figure><img src="/assets/images/main/main_partner_icon04.png" alt="Sales & Distribution" /></figure>
           <b>Sales & Distribution</b>
           <p>
-            Specialized expertise<br>
-            for faster and<br>
-            effective market<br>
-            penetration of your<br>
+            Specialized expertise<br />
+            for faster and<br />
+            effective market<br />
+            penetration of your<br />
             products
           </p>
         </li>
       </ul>
-      <ul class="main-partner__phrase">
-        <li></li>
-      </ul>
+    </div>
+    <ul class="main-partner__phrase">
+      <li>
+        <figure><img src="/assets/images/main/main_partner_img01.jpg" alt="" /></figure>
+        <div>
+          <b
+            >Best Care for Today,<br />
+            Innovations for Tomorrow
+          </b>
+          <p>
+            Mint MedTech is dedicated to bringing<br />
+            true innovations tackling complex medical problems<br />
+            with huge unmet medical needs
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <b>Future Health,<br>
+            Within Our Reach
+          </b>
+          <p>
+            Mint MedTech is a one-stop solution<br>
+            provider for innovative medtech and healthcare<br>
+            companies to expand their reach in Asia
+          </p>
+        </div>
+        <figure><img src="/assets/images/main/main_partner_img02.jpg" alt="" /></figure>
+      </li>
+    </ul>
+  </section>
+  <section class="main-health">
+    <div class="inner">
+      <div class="main-tit__area">
+        <strong>
+          Mint MedTech is at the center of creating the future of health
+        </strong>
+      </div>
     </div>
   </section>
 </div>
